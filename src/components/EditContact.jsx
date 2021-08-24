@@ -58,7 +58,7 @@ const EditContact = () => {
     return (
         <div className='container'>
             <div className="row">
-                <h1 className='display-4 text-center my-4'>Edit Contact {parseFloat(id)}</h1>
+                <h1 className='display-4 text-center my-4'>Edit Contact</h1>
 
                 <div className="col-md-6 mx-auto shadow p-5">
                     <form onSubmit={handleSubmit}>
