@@ -11,7 +11,7 @@ const middlewares = [reduxThunk];
 
 const store = createStore(
     contactReducer,
-    applyMiddleware(...middlewares)
+    applyMiddleware(...middlewares),
 );
 
 export default store;
